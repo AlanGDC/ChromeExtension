@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "SuperKelmen Button",
+  "description": "Execute script after click in popup.html, this click one button after 2 min .",
+  "version": "1.0",
+
+  "icons": {
+    "48": "kelmen.png"
+  },
+
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "kelmen.png",
+    "default_popup": "popup.html"
+  }
+}
